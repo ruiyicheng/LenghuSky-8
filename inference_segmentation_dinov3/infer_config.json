@@ -1,0 +1,23 @@
+{
+  "probe_path": "D:/project/dino/cloud/log/none_feature_dino/coef/linear_probe_dinov3_vitl16_torch.pt",
+
+  "backbone_dir": "C:\\Users\\Dell\\.cache\\huggingface\\hub\\models--facebook--dinov3-vitl16-pretrain-lvd1689m\\snapshots\\ea8dc2863c51be0a264bab82070e3e8836b02d51", 
+  "global_feature_mode": "none",
+
+  "input_dir": "D:/project/dino/cloud/data/2023",
+  "exts": ["jpg", "jpeg", "png"],
+
+  "logits_out_dir": "D:/project/dino/cloud/log/none_feature_inference/logits_npz",
+  "overlay_out_dir": "D:/project/dino/cloud/log/none_feature_inference/overlay_every1",
+
+  "overlay_alpha": 0.3,
+  "save_every": 1,
+
+  "device": "auto",
+
+  "class_colors": {
+    "0": [0, 114, 178],
+    "1": [230, 159, 0],
+    "2": [204, 121, 167]
+  }
+}

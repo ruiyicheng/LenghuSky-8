@@ -1,0 +1,1 @@
+This file is intended to convert raw images captured by the cloud camera into processed images suitable for cloud segmentation or astrometric calibration. For segmentation, s3 mode of enhancement is applied, resolution should be 512x512. For calibration, no enhancement is applied, resolution should be 4096x4096.

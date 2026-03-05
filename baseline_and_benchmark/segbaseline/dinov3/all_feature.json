@@ -1,0 +1,32 @@
+{
+  "train_labelme_root": "D:/project/dino/cloud/data/segmentation/train",
+  "test_labelme_root": "D:/project/dino/cloud/data/segmentation/test",
+  "val_labelme_root": "D:/project/dino/cloud/data/segmentation/val",
+  "cache_dir": "D:/project/dino/cloud/data/segmentation/cache",
+  "coef_out_dir": "D:/project/dino/cloud/log/all_feature_dino/coef",
+  "inference_out_dir": "D:/project/dino/cloud/log/all_feature_dino/inference",
+
+  "model_id": "facebook/dinov3-vitl16-pretrain-lvd1689m",
+  "target_resolution": 1024,
+  "patch_size": 16,
+
+  "class_map": {
+    "sky": 0,
+    "cloud": 1,
+    "contamination": 2
+  },
+  "active_class_names": ["sky", "cloud", "contamination"],
+
+  "global_feature_mode": "all", 
+
+  "random_state": 42,
+  "torch_batch_size": 32768,
+  "torch_epochs": 500,
+  "torch_optimizer": "adam",
+  "torch_lr": 0.001,
+  "torch_weight_decay": 0.0,
+  "torch_momentum": 0.9,
+  "torch_lbfgs_lr": 1.0,
+  "torch_patience": 5,
+"json_val_ratio": 0.111
+}

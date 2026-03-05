@@ -1,0 +1,49 @@
+{
+  "seed": 42,
+  "data": {
+    "logits_dir": "/home/dzm/cloud/logits",
+    "mask_dir": "/home/dzm/PycharmProjects/conv_lstm_precipitation/simplified_VideoGPT/aux_data/mask_mat",
+    "mapping_txt": "/home/dzm/PycharmProjects/conv_lstm_precipitation/simplified_VideoGPT/aux_data/bkg_map.txt",
+    "image_size": 64,
+    "sequence_length": 3,
+    "sample_interval_minutes": 60,
+    "num_workers": 4,
+    "train": [
+      [
+        "2018-05-01-00-00-00",
+        "2023-01-01-00-00-00"
+      ],
+      [
+        "2023-09-28-00-00-00",
+        "2025-01-01-00-00-00"
+      ]
+    ],
+    "val": [
+      [
+        "2023-01-01-00-00-00",
+        "2023-09-28-00-00-00"
+      ],
+      [
+        "2025-01-01-00-00-00",
+        "2025-11-01-00-00-00"
+      ]
+    ]
+  },
+  "convlstm": {
+    "n_input": 2,
+    "model": {
+      "hidden_dims": [
+        64,
+        64
+      ],
+      "kernel_size": 3,
+      "dropout": 0.0
+    },
+    "training": {
+      "batch_size": 8,
+      "learning_rate": 0.001,
+      "max_epochs": 1,
+      "save_dir": "./checkpoints/convlstm"
+    }
+  }
+}

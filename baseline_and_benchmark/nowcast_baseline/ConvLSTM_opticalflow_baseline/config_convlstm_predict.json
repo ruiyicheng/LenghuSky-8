@@ -1,0 +1,23 @@
+{
+  "period": [
+    [
+      "2023-01-01-00-00-00",
+      "2023-09-28-00-00-00"
+    ],
+    [
+      "2025-01-01-00-00-00",
+      "2025-11-01-00-00-00"
+    ]
+  ],
+  "logits_dir": "/home/dzm/cloud/logits",
+  "mask_dir": "/home/dzm/PycharmProjects/conv_lstm_precipitation/simplified_VideoGPT/aux_data/mask_mat",
+  "mapping_txt": "/home/dzm/PycharmProjects/conv_lstm_precipitation/simplified_VideoGPT/aux_data/bkg_map.txt",
+  "class_map": {
+    "0": "sky",
+    "1": "cloud",
+    "2": "contamination"
+  },
+  "checkpoint": "/home/dzm/PycharmProjects/conv_lstm_precipitation/ConvLSTM_opticalflow_baseline/checkpoints/convlstm/convlstm-epoch=01-val=0.376200.pt",
+  "out_dir": "./benchmark_results",
+  "metrics_name": "ConvLSTM_metrics.json"
+}

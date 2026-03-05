@@ -1,0 +1,9 @@
+{
+    "train_labelme_root": "D:\\project\\dino\\cloud\\data\\segmentation\\train",
+    "test_labelme_root": "D:\\project\\dino\\cloud\\data\\segmentation\\test",
+    "val_labelme_root": "D:\\project\\dino\\cloud\\data\\segmentation\\val",
+    "checkpoint_dir": "D:\\project\\dino\\cloud\\checkpoints\\segmentation",
+    "inference_out_dir": "D:\\project\\dino\\cloud\\results\\segmentation",
+    "num_epochs": 500,
+    "random_state": 42
+}

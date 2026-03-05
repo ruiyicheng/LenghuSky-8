@@ -1,0 +1,16 @@
+{
+  "variant": "large",
+  "pretrained_encoder": null,
+  "epochs": 80,
+  "batch_size": 24,
+  "lr": 0.0003,
+  "weight_decay": 0.05,
+  "num_workers": 4,
+  "early_stop_patience": 10,
+
+  "train_dir": "/will/be/overridden",
+  "val_dir": "/will/be/overridden",
+  "test_dir": "/will/be/overridden",
+  "out_dir": "/will/be/overridden",
+  "seed": 42
+}

@@ -1,0 +1,15 @@
+config:
+  model:
+    embedding_dim: 256
+    n_codes: 512
+    hidden_dims:
+    - 64
+    - 128
+    - 256
+    commitment_cost: 0.25
+  training:
+    batch_size: 4
+    learning_rate: 0.0003
+    max_epochs: 1
+    num_workers: 4
+    save_dir: ./checkpoints/vqvae

@@ -1,0 +1,14 @@
+{
+  "n_input": 2,
+  "best_params": {
+    "winsize": 9,
+    "levels": 3,
+    "iterations": 3,
+    "poly_n": 5,
+    "poly_sigma": 1.1,
+    "pyr_scale": 0.5,
+    "gray_mode": "channel",
+    "flow_channel": 1
+  },
+  "val_mse": 0.19737260388501454
+}

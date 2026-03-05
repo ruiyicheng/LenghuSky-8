@@ -1,0 +1,12 @@
+{
+  "data_dir": "/home/dzm/cloud/segbaseline/data",          
+  "split_root": "./splits",                          
+  "out_root": "./runs/bootstrap_base",                   
+  "trainer_config": "/home/dzm/PycharmProjects/conv_lstm_precipitation/SegMAN/train_base_config_base.json",
+  "split_script": "/home/dzm/cloud/segbaseline/train_test_split.py",
+  "train_script": "/home/dzm/PycharmProjects/conv_lstm_precipitation/SegMAN/train_segman.py",
+  "ratio_val": 0.10,
+  "ratio_test": 0.10,
+  "seeds": [10,27,44,61,78,95,112,129,146,163,180,197,214,231,248,265,282,299,316,333],
+  "results_file": "./runs/bootstrap_base/bootstrap_results.json"
+}
