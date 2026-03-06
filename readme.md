@@ -60,6 +60,8 @@ Each script contains detailed documentation at the beginning explaining its func
 
 ## Data
 
+The dataset is available on Hugging Face: [https://huggingface.co/datasets/ruiyicheng/LenghuSky-8](https://huggingface.co/datasets/ruiyicheng/LenghuSky-8)
+
 The `baseline_and_benchmark/data/` directory contains manually labeled 252 images used for benchmarking cloud segmentation performance.
 
 ## Requirements
