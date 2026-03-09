@@ -73,21 +73,6 @@ The `baseline_and_benchmark/data/` directory contains manually labeled 252 image
 
 Please refer to individual script headers for specific dependencies and requirements.
 
-## Citation
-
-If you use this code in your research, please cite the LenghuSky-8 paper:
-
-```bibtex
-@inproceedings{cheng2026lenghusky8,
-  title={LenghuSky-8: A Comprehensive Framework for All-Sky Cloud Camera Image Analysis},
-  author={Cheng, Ruiyi and others},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Findings},
-  year={2026}
-}
-```
-
-> **Note:** ArXiv link coming soon!
-
 ## License
 
 See LICENSE file for details.
