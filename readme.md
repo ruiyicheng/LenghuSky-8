@@ -1,6 +1,11 @@
 # LenghuSky-8
 
-This repository contains the code to reproduce the main results from the LenghuSky-8 paper. It provides a complete pipeline for cloud image analysis including preprocessing, segmentation, astrometric calibration, and benchmarking.
+[![CVPR 2026 Findings](https://img.shields.io/badge/CVPR%202026-Findings-blue)](https://cvpr.thecvf.com/)
+
+This repository contains the code to reproduce the main results from the LenghuSky-8 paper (**CVPR 2026 Findings**). It provides a complete pipeline for cloud image analysis including preprocessing, segmentation, astrometric calibration, and benchmarking.
+
+> **News:** This paper has been accepted as a **CVPR 2026 Findings**! 🎉
+> - ArXiv link coming soon
 
 ## Overview
 
@@ -70,7 +75,18 @@ Please refer to individual script headers for specific dependencies and requirem
 
 ## Citation
 
-If you use this code in your research, please cite the LenghuSky-8 paper.
+If you use this code in your research, please cite the LenghuSky-8 paper:
+
+```bibtex
+@inproceedings{cheng2026lenghusky8,
+  title={LenghuSky-8: A Comprehensive Framework for All-Sky Cloud Camera Image Analysis},
+  author={Cheng, Ruiyi and others},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Findings},
+  year={2026}
+}
+```
+
+> **Note:** ArXiv link coming soon!
 
 ## License
 
