@@ -5,7 +5,7 @@
 This repository contains the code to reproduce the main results from the LenghuSky-8 paper (**CVPR 2026 Findings**). It provides a complete pipeline for cloud image analysis including preprocessing, segmentation, astrometric calibration, and benchmarking.
 
 > **News:** This paper has been accepted as a **CVPR 2026 Findings**! 🎉
-> - ArXiv link coming soon
+> - [arXiv:2603.16429](https://arxiv.org/abs/2603.16429)
 
 ## Overview
 
